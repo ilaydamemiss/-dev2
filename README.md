@@ -31,9 +31,6 @@ Bu depo, ders kapsamında hazırlanmış **eğitim amaçlı** bir keylogger uygu
 ---
 
 ## Güvenli Test Ortamı (Öneriler)
-
-* Testleri **fiziksel olarak izole edilmiş bir laboratuvar ortamı** veya sanal makinede (VM) gerçekleştir.
-* İnternete bağlı canlı kullanıcı cihazlarında kesinlikle test yapma.
 * Test verilerini yalnızca eğitim amacıyla, sınırlı süreyle sakla; iş bitiminde **kalıcı olarak sil**.
 * Kullanılan VM veya test ortamında anlık görüntü (snapshot) al; gerektiğinde geri dön.
 
@@ -42,10 +39,9 @@ Bu depo, ders kapsamında hazırlanmış **eğitim amaçlı** bir keylogger uygu
 ## Test Planı (Basit Akış)
 
 1. Test ortamı hazırlanır (ayrı VM, izole ağ).
-2. Katılımcılardan yazılı rıza alınır.
-3. Deney başlatılır; hangi verilerin toplanacağı ve amaç tekrar hatırlatılır.
-4. Deney sonrası veriler güvenli biçimde toplanır, analiz edilir ve sonuçlar raporlanır.
-5. Tüm ham veriler projenin kapatılmasından sonra güvenli şekilde silinir.
+2. Deney başlatılır; hangi verilerin toplanacağı ve amaç tekrar hatırlatılır.
+3. Deney sonrası veriler güvenli biçimde toplanır, analiz edilir ve sonuçlar raporlanır.
+4. Tüm ham veriler projenin kapatılmasından sonra güvenli şekilde silinir.
 
 ---
 
@@ -53,7 +49,8 @@ Bu depo, ders kapsamında hazırlanmış **eğitim amaçlı** bir keylogger uygu
 
 * Toplanan veriler en az tutulmalı; analiz tamamlandığında **güvenli** biçimde yok edilmelidir.
 * Verilere erişim sadece proje ekibiyle sını
-Video Kanıtı
+
+## Video Kanıtı
 
 Uygulamanın çalıştığına dair çektiğim ve paylaştığım video bu:
 
