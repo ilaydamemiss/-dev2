@@ -53,3 +53,10 @@ Bu depo, ders kapsamında hazırlanmış **eğitim amaçlı** bir keylogger uygu
 
 * Toplanan veriler en az tutulmalı; analiz tamamlandığında **güvenli** biçimde yok edilmelidir.
 * Verilere erişim sadece proje ekibiyle sını
+Video Kanıtı
+
+Uygulamanın çalıştığına dair çektiğim ve paylaştığım video bu:
+
+https://youtu.be/-hWEh6j08GQ
+
+(Not: Video, proje kapsamında alınmış yazılı rıza ile kaydedilmiş test ortamında çekilmiştir.)
